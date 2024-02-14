@@ -4,9 +4,9 @@ h1 {
   font-size: 48px;
   text-align: center;
   margin: auto;
-  line-height: 400px;
+  line-height: 300px;
   background-image: url(https://i.pinimg.com/736x/84/b9/62/84b9623d78d8cbe660ac0f868ccab484.jpg); 
-  height: 400px;
+  height: 300px;
 }
 
 body {
@@ -47,7 +47,7 @@ h3 {color: #00bfff;
 .card {
     position: relative;
     width: 425px;
-    height: 280px;
+    height: 260px;
     margin: 50px auto;
     box-shadow: inset 10px 0px 15px 0px var(--shadow);
     background-color: white
@@ -156,7 +156,7 @@ h3 {color: #00bfff;
 
 .footer {
     font-family: Consolas;
-    position:absolute;
+    position:relative;
     color: white;
     font-size: 8px;
 }
