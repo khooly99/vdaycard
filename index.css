@@ -14,9 +14,10 @@ body {
     background-color: #1c1c1c;
     letter-spacing: 0.8px;
     overflow: hidden;
+}
 
 h3 {
-  font-family: Consolas
+  font-family: Consolas;
   color: #e7c547;
   font-size: 12px;   
 }
