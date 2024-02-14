@@ -1,0 +1,165 @@
+h1 {
+  color:#d54e53;
+  font-family: Consolas;
+  font-size: 48px;
+  text-align: center;
+  margin: auto;
+  line-height: 400px;
+  background-image: url(https://i.pinimg.com/736x/84/b9/62/84b9623d78d8cbe660ac0f868ccab484.jpg); 
+  height: 400px;
+}
+
+body {
+    font-family: Consolas;
+    background-color: #1c1c1c;
+    letter-spacing: 0.8px;
+    overflow: hidden;
+
+h3 {color: #00bfff;
+    font-size: 14px;   
+}
+
+.letter {
+    position: absolute;
+    width: 90%;
+    height: 90%;
+    top: 5%;
+    right: 5%;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: Consolas;
+    font-size:15px;
+}
+.text1 {
+    color: mediumspringgreen;
+}
+.text2 {
+    color: #FF7177;
+    text-align: center;
+}
+.text3 {
+    color: #e7c547;
+}
+.text4 {
+    color: #70c0b1;
+}
+.card {
+    position: relative;
+    width: 425px;
+    height: 280px;
+    margin: 50px auto;
+    box-shadow: inset 10px 0px 15px 0px var(--shadow);
+    background-color: white
+  }
+.card .front {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    margin: 0px 0px 0px 0px;
+    border: 10px solid var(--border-color);
+    backface-visibility: visible;
+    background-color: #FF7177;
+    background-size: contain;
+    transform-style: preserve-3d;
+    transform-origin: 50% 0%;
+    transform: perspective(800px) rotateX(0deg);
+    transition: all 0.8s ease-in-out;
+}
+.card:hover .front {
+    transform: perspective(800px) rotateX(170deg);
+}
+
+.heart-container {
+    position: relative;
+    top: calc(50% - 50px);
+    left: calc(50% - 50px);
+}
+  
+.heart-1 {
+    position: absolute;
+    background-color: red;
+    filter: drop-shadow(0px 0px 5px var(--drop-shadow));
+    height: 100px;
+    width: 100px;
+    margin: 0 auto;
+    transform: rotate(-45deg);
+}
+.heart-1:before,
+.heart-1:after {
+    content: "";
+    position: absolute;
+    background-color: red;
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+}
+.heart-1:before{
+    top: -50px
+}
+.heart-1:after {
+    left: 50px;
+} 
+.heart-2 {
+    position: absolute;
+    background-color: rgb(255, 0, 85);
+    filter: drop-shadow(0px 0px 5px var(--drop-shadow));
+    height: 80px;
+    width: 80px;
+    margin: 0 auto;
+    transform: rotate(-45deg);
+    top: 25px;
+    left: 11px;
+}
+.heart-2:before,
+.heart-2:after {
+    content: "";
+    position: absolute;
+    background-color: rgb(255, 0, 85);
+    border-radius: 50%;
+    height: 80px;
+    width: 80px;
+}
+.heart-2:before{
+    top: -40px
+}
+.heart-2:after {
+    left: 40px;
+}
+.heart-3 {
+    position: absolute;
+    background-color: rgb(255, 60, 125);
+    filter: drop-shadow(0px 0px 5px var(--drop-shadow));
+    height: 60px;
+    width: 60px;
+    margin: 0 auto;
+    transform: rotate(-45deg);
+    top: 49px;
+    left: 21px;
+}
+.heart-3:before,
+.heart-3:after {
+    content: "";
+    position: absolute;
+    background-color: rgb(255, 60, 125);
+    border-radius: 50%;
+    height: 60px;
+    width: 60px;
+}
+.heart-3:before{
+    top: -30px
+}
+.heart-3:after {
+    left: 30px;
+}
+}
+
+.footer {
+    font-family: Consolas;
+    position:absolute;
+    color: white;
+    font-size: 8px;
+}
+
+
+
