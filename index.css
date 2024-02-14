@@ -15,8 +15,10 @@ body {
     letter-spacing: 0.8px;
     overflow: hidden;
 
-h3 {color: #00bfff;
-    font-size: 14px;   
+h3 {
+  font-family: Consolas
+  color: #e7c547;
+  font-size: 12px;   
 }
 
 .letter {
@@ -39,7 +41,7 @@ h3 {color: #00bfff;
     text-align: center;
 }
 .text3 {
-    color: #e7c547;
+    color: #00bfff;
 }
 .text4 {
     color: #70c0b1;
